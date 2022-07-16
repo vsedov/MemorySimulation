@@ -1,0 +1,19 @@
+{
+    mode = "release",
+    plat = "linux",
+    version = "latest",
+    configs = {
+        pic = true,
+        shared = false,
+        debug = false
+    },
+    arch = "x86_64",
+    description = "A simple logging library implemented in C99",
+    name = "log.c",
+    vars = { },
+    envs = {
+        LD_LIBRARY_PATH = {
+            "lib"
+        }
+    }
+}

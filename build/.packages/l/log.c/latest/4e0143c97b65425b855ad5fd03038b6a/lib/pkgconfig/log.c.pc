@@ -1,0 +1,11 @@
+prefix=/home/viv/GitHub/Personal_Learning/ThisYear/Operating_Systems/CourseWork2/CS2850assignment2/build/.packages/l/log.c/latest/4e0143c97b65425b855ad5fd03038b6a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: log.c
+Description: A simple logging library implemented in C99
+Version: latest
+Libs:  -L/home/viv/GitHub/Personal_Learning/ThisYear/Operating_Systems/CourseWork2/CS2850assignment2/build/.packages/l/log.c/latest/4e0143c97b65425b855ad5fd03038b6a/lib -L${libdir} -llog
+Libs.private: 
+Cflags:  -I${includedir}
